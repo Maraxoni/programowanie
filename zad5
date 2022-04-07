@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class zad5 {
+    public static void main(String[] args) throws Exception {
+
+        class Osoba {
+
+            Osoba(imie, nazwisko){
+                this->getImie()=imie;
+                this->getNazwisko()=nazwisko;
+            }
+            String getImie();
+            String getNazwisko();
+
+        }
+
+        class Kartoteka extends Osoba{
+
+            Kartoteka(){
+
+            }
+
+            void dodaj(Osoba){
+                
+            }
+            void usun(Osoba){
+
+            }
+            int rozmiar(){
+                return 1;
+            }
+            boolean czyZawiera(Osoba){
+                return true;
+            }
+            Osoba pobierz(int index){
+                return new Osoba("Gall","Anonim");
+            }
+            
+        }
+        
+        Kartoteka kartoteka;
+
+        kartoteka.pobierz();
+
+}
